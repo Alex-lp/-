@@ -1,0 +1,396 @@
+.noSize {
+	text-indent: -9999em; font-size: 0px;
+}
+.flex {
+	display: flex;
+}
+#pop-gift-mask {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; position: fixed; z-index: 999; max-height: 1080px;
+}
+#pop-gift .pop-bg {
+	left: 50%; top: 50%; width: 1171px; height: 579px; margin-top: -327px; margin-left: -532px; position: absolute; z-index: 999;
+}
+#pop-gift .pop-kv {
+	left: -428px; top: -213px; width: 755px; height: 1080px; position: absolute;
+}
+#pop-gift .pop-close {
+	transition:transform 0.5s, transform 0.5s; top: -3px; width: 45px; height: 45px; right: -54px; position: absolute; cursor: pointer; -webkit-transition: 0.5s -webkit-transform; -o-transition: 0.5s transform; -moz-transition: 0.5s transform;
+}
+#pop-gift .pop-close:hover {
+	width: 45px; height: 45px; transform: rotate(90deg); -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg);
+}
+#pop-gift .pop-box {
+	height: 100%; padding-right: 342px; padding-left: 94px; position: relative;
+}
+#pop-gift .pop-side {
+	padding: 40px 51px; top: 0px; width: 342px; height: 100%; right: 0px; position: absolute; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+#pop-gift .pop-side-title {
+	color: rgb(51, 51, 51); font-size: 20px; margin-bottom: 20px;
+}
+#pop-gift .pop-side .num-01 {
+	top: -2px; margin-right: 10px; vertical-align: middle; display: inline-block; position: relative;
+}
+#pop-gift .pop-side .num-02 {
+	top: -2px; margin-right: 10px; vertical-align: middle; display: inline-block; position: relative;
+}
+#pop-gift .pop-side .num-01 {
+	width: 33px; height: 32px;
+}
+#pop-gift .pop-side .num-02 {
+	width: 34px; height: 32px;
+}
+#pop-gift .pop-side .reg-box {
+	margin-bottom: 30px;
+}
+#pop-gift .pop-side #pop-reg {
+	height: 280px !important;
+}
+#pop-gift .pop-side .btn-download {
+	width: 241px; height: 67px; text-align: center; color: rgb(255, 255, 255); line-height: 67px; letter-spacing: 0.1em; font-size: 24px; display: block; text-shadow: 0px 0px 4px rgba(145,113,27,0.5);
+}
+#pop-gift .pop-side .btn-download:hover {
+	width: 241px; height: 67px;
+}
+#pop-gift .pop-content {
+	padding-top: 45px;
+}
+#pop-gift .step {
+	display: none;
+}
+#pop-gift .pop-title-login {
+	margin: 0px auto 70px; width: 344px; height: 47px;
+}
+#pop-gift .pop-title-code {
+	margin: 0px auto 80px; width: 344px; height: 47px;
+}
+#pop-gift .pop-title-gift {
+	margin: -15px auto 33px; width: 498px; height: 47px; position: relative;
+}
+#pop-gift .pop-title-gift .subtitle {
+	left: 153px; top: 49px; width: 214px; height: 15px; position: absolute;
+}
+#pop-gift .login-box {
+	margin: 0px auto; width: 330px; height: 300px;
+}
+#pop-gift .login-box #pop-login {
+	height: 100%;
+}
+#pop-gift .code-box {
+	margin: 0px auto; width: 500px; color: rgb(36, 36, 52); font-size: 18px;
+}
+#pop-gift .code-box p {
+	line-height: 1.8;
+}
+#pop-gift .code-box .code-wrap {
+	width: 420px; padding-bottom: 20px; margin-top: 50px; margin-bottom: 30px; border-bottom-color: rgba(204, 204, 204, 0.5); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+#pop-gift .code-box .code {
+	line-height: 1; font-size: 30px;
+}
+#pop-gift .code-box .btn-copy {
+	padding: 0px 12px; border-radius: 14px; top: 0px; height: 34px; right: 0px; color: rgb(255, 255, 255); position: absolute;
+}
+#pop-gift .code-box .btn-copy:hover {
+	
+}
+#pop-gift .gift-box {
+	margin: 0px auto; width: 599px; height: 446px; position: relative;
+}
+#pop-gift .gift-box .btn-receive {
+	width: 204px; height: 39px; color: rgb(255, 255, 255); font-size: 18px; position: absolute; cursor: pointer;
+}
+#pop-gift .gift-box .btn-receive:hover {
+	width: 204px; height: 39px;
+}
+.no-webp #pop-gift-mask {
+	background: rgba(0, 0, 0, 0.65);
+}
+.webp #pop-gift-mask {
+	background: rgba(0, 0, 0, 0.65);
+}
+.no-webp #pop-gift .pop-bg {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/bg_176a5eba.jpg") no-repeat center;
+}
+.webp #pop-gift .pop-bg {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/bg_176a5eba.webp") no-repeat center;
+}
+.no-webp #pop-gift .pop-bg {
+	background-position: center;
+}
+.webp #pop-gift .pop-bg {
+	background-position: center;
+}
+.no-webp #pop-gift .pop-bg {
+	background-repeat: no-repeat;
+}
+.webp #pop-gift .pop-bg {
+	background-repeat: no-repeat;
+}
+.no-webp #pop-gift .pop-kv {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/kv_7a3cc7e7.png") no-repeat center;
+}
+.webp #pop-gift .pop-kv {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/kv_7a3cc7e7.webp") no-repeat center;
+}
+.no-webp #pop-gift .pop-kv {
+	background-position: center;
+}
+.webp #pop-gift .pop-kv {
+	background-position: center;
+}
+.no-webp #pop-gift .pop-kv {
+	background-repeat: no-repeat;
+}
+.webp #pop-gift .pop-kv {
+	background-repeat: no-repeat;
+}
+.no-webp #pop-gift .pop-close {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/sprite-f268b2_f268b2ce.png") -245px 0px / 290px 224px;
+}
+.webp #pop-gift .pop-close {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/sprite-f268b2_f268b2ce.webp") -245px 0px / 290px 224px;
+}
+.no-webp #pop-gift .pop-close {
+	background-size: 290px 224px;
+}
+.webp #pop-gift .pop-close {
+	background-size: 290px 224px;
+}
+.no-webp #pop-gift .pop-close {
+	background-position: -245px 0px;
+}
+.webp #pop-gift .pop-close {
+	background-position: -245px 0px;
+}
+.no-webp #pop-gift .pop-close:hover {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/sprite-f268b2_f268b2ce.png") -245px -49px / 290px 224px;
+}
+.webp #pop-gift .pop-close:hover {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/sprite-f268b2_f268b2ce.webp") -245px -49px / 290px 224px;
+}
+.no-webp #pop-gift .pop-close:hover {
+	background-size: 290px 224px;
+}
+.webp #pop-gift .pop-close:hover {
+	background-size: 290px 224px;
+}
+.no-webp #pop-gift .pop-close:hover {
+	background-position: -245px -49px;
+}
+.webp #pop-gift .pop-close:hover {
+	background-position: -245px -49px;
+}
+.no-webp #pop-gift .pop-side .num-01 {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/sprite-f268b2_f268b2ce.png") -245px -134px / 290px 224px;
+}
+.webp #pop-gift .pop-side .num-01 {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/sprite-f268b2_f268b2ce.webp") -245px -134px / 290px 224px;
+}
+.no-webp #pop-gift .pop-side .num-01 {
+	background-size: 290px 224px;
+}
+.webp #pop-gift .pop-side .num-01 {
+	background-size: 290px 224px;
+}
+.no-webp #pop-gift .pop-side .num-01 {
+	background-position: -245px -134px;
+}
+.webp #pop-gift .pop-side .num-01 {
+	background-position: -245px -134px;
+}
+.no-webp #pop-gift .pop-side .num-02 {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/sprite-f268b2_f268b2ce.png") -245px -98px / 290px 224px;
+}
+.webp #pop-gift .pop-side .num-02 {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/sprite-f268b2_f268b2ce.webp") -245px -98px / 290px 224px;
+}
+.no-webp #pop-gift .pop-side .num-02 {
+	background-size: 290px 224px;
+}
+.webp #pop-gift .pop-side .num-02 {
+	background-size: 290px 224px;
+}
+.no-webp #pop-gift .pop-side .num-02 {
+	background-position: -245px -98px;
+}
+.webp #pop-gift .pop-side .num-02 {
+	background-position: -245px -98px;
+}
+.no-webp #pop-gift .pop-side .btn-download {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/sprite-f268b2_f268b2ce.png") 0px 0px / 290px 224px;
+}
+.webp #pop-gift .pop-side .btn-download {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/sprite-f268b2_f268b2ce.webp") 0px 0px / 290px 224px;
+}
+.no-webp #pop-gift .pop-side .btn-download {
+	background-size: 290px 224px;
+}
+.webp #pop-gift .pop-side .btn-download {
+	background-size: 290px 224px;
+}
+.no-webp #pop-gift .pop-side .btn-download {
+	background-position: 0px 0px;
+}
+.webp #pop-gift .pop-side .btn-download {
+	background-position: 0px 0px;
+}
+.no-webp #pop-gift .pop-side .btn-download:hover {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/sprite-f268b2_f268b2ce.png") 0px -71px / 290px 224px;
+}
+.webp #pop-gift .pop-side .btn-download:hover {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/sprite-f268b2_f268b2ce.webp") 0px -71px / 290px 224px;
+}
+.no-webp #pop-gift .pop-side .btn-download:hover {
+	background-size: 290px 224px;
+}
+.webp #pop-gift .pop-side .btn-download:hover {
+	background-size: 290px 224px;
+}
+.no-webp #pop-gift .pop-side .btn-download:hover {
+	background-position: 0px -71px;
+}
+.webp #pop-gift .pop-side .btn-download:hover {
+	background-position: 0px -71px;
+}
+.no-webp #pop-gift .pop-title-login {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/title-login_56a9fe1b.png") no-repeat center;
+}
+.webp #pop-gift .pop-title-login {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/title-login_56a9fe1b.webp") no-repeat center;
+}
+.no-webp #pop-gift .pop-title-login {
+	background-position: center;
+}
+.webp #pop-gift .pop-title-login {
+	background-position: center;
+}
+.no-webp #pop-gift .pop-title-login {
+	background-repeat: no-repeat;
+}
+.webp #pop-gift .pop-title-login {
+	background-repeat: no-repeat;
+}
+.no-webp #pop-gift .pop-title-code {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/title-code_9cfacfd7.png") no-repeat center;
+}
+.webp #pop-gift .pop-title-code {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/title-code_9cfacfd7.webp") no-repeat center;
+}
+.no-webp #pop-gift .pop-title-code {
+	background-position: center;
+}
+.webp #pop-gift .pop-title-code {
+	background-position: center;
+}
+.no-webp #pop-gift .pop-title-code {
+	background-repeat: no-repeat;
+}
+.webp #pop-gift .pop-title-code {
+	background-repeat: no-repeat;
+}
+.no-webp #pop-gift .pop-title-gift {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/title-gift_83851c34.png") no-repeat center;
+}
+.webp #pop-gift .pop-title-gift {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/title-gift_83851c34.webp") no-repeat center;
+}
+.no-webp #pop-gift .pop-title-gift {
+	background-position: center;
+}
+.webp #pop-gift .pop-title-gift {
+	background-position: center;
+}
+.no-webp #pop-gift .pop-title-gift {
+	background-repeat: no-repeat;
+}
+.webp #pop-gift .pop-title-gift {
+	background-repeat: no-repeat;
+}
+.no-webp #pop-gift .pop-title-gift .subtitle {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/title-gift-text_78860d83.png") no-repeat center;
+}
+.webp #pop-gift .pop-title-gift .subtitle {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/title-gift-text_78860d83.webp") no-repeat center;
+}
+.no-webp #pop-gift .pop-title-gift .subtitle {
+	background-position: center;
+}
+.webp #pop-gift .pop-title-gift .subtitle {
+	background-position: center;
+}
+.no-webp #pop-gift .pop-title-gift .subtitle {
+	background-repeat: no-repeat;
+}
+.webp #pop-gift .pop-title-gift .subtitle {
+	background-repeat: no-repeat;
+}
+.no-webp #pop-gift .code-box .btn-copy {
+	background: rgb(178, 144, 50);
+}
+.webp #pop-gift .code-box .btn-copy {
+	background: rgb(178, 144, 50);
+}
+.no-webp #pop-gift .code-box .btn-copy:hover {
+	background: rgb(196, 168, 91);
+}
+.webp #pop-gift .code-box .btn-copy:hover {
+	background: rgb(196, 168, 91);
+}
+.no-webp #pop-gift .gift-box {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/gift_387eefb3.png") no-repeat center;
+}
+.webp #pop-gift .gift-box {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/gift_387eefb3.webp") no-repeat center;
+}
+.no-webp #pop-gift .gift-box {
+	background-position: center;
+}
+.webp #pop-gift .gift-box {
+	background-position: center;
+}
+.no-webp #pop-gift .gift-box {
+	background-repeat: no-repeat;
+}
+.webp #pop-gift .gift-box {
+	background-repeat: no-repeat;
+}
+.no-webp #pop-gift .gift-box .btn-receive {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/sprite-f268b2_f268b2ce.png") 0px -142px / 290px 224px;
+}
+.webp #pop-gift .gift-box .btn-receive {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/sprite-f268b2_f268b2ce.webp") 0px -142px / 290px 224px;
+}
+.no-webp #pop-gift .gift-box .btn-receive {
+	background-size: 290px 224px;
+}
+.webp #pop-gift .gift-box .btn-receive {
+	background-size: 290px 224px;
+}
+.no-webp #pop-gift .gift-box .btn-receive {
+	background-position: 0px -142px;
+}
+.webp #pop-gift .gift-box .btn-receive {
+	background-position: 0px -142px;
+}
+.no-webp #pop-gift .gift-box .btn-receive:hover {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/sprite-f268b2_f268b2ce.png") 0px -185px / 290px 224px;
+}
+.webp #pop-gift .gift-box .btn-receive:hover {
+	background: url("https://qn.res.netease.com/pc/gw/20200904095222/img/sprite-f268b2_f268b2ce.webp") 0px -185px / 290px 224px;
+}
+.no-webp #pop-gift .gift-box .btn-receive:hover {
+	background-size: 290px 224px;
+}
+.webp #pop-gift .gift-box .btn-receive:hover {
+	background-size: 290px 224px;
+}
+.no-webp #pop-gift .gift-box .btn-receive:hover {
+	background-position: 0px -185px;
+}
+.webp #pop-gift .gift-box .btn-receive:hover {
+	background-position: 0px -185px;
+}
+#pop-gift .gift-box .btn-receive.pos-2 {
+	top: 157px; right: 72px;
+}

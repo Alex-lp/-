@@ -1,0 +1,53 @@
+.logo{
+    background: url("../images/logo_20b63104.webp") no-repeat;
+    position: absolute;
+    width: 187px;
+    height: 48px;
+    z-index: 9;
+    top: 29px;
+    left: 177px;
+}
+.top_group{
+    width:  188px;
+    height: 40px;
+    position: absolute;
+    top: 29px;
+    left: 380px;
+    background: url("../images/top-bg_088060ad.webp") no-repeat;
+}
+.top1{
+    background: url("../images/sprite-091bcb_091bcb73.webp") no-repeat;
+    background-size: 714px 404px;
+    background-position: -487px -289px;
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+}
+.top1:hover{
+    background-position: -457px -289px;
+}
+.top2{
+    background: url("../images/sprite-091bcb_091bcb73.webp") no-repeat;
+    background-size: 714px 404px;
+    background-position: -549px -289px;
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    left: 80px;
+}
+.top2:hover{
+    background-position: -517px -289px;
+}
+.top3{
+    background: url("../images/sprite-091bcb_091bcb73.webp") no-repeat;
+    background-size: 714px 404px;
+    background-position: -580px -289px;
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    left: 140px;
+}
+.top3:hover{
+    background-position: -603px -289px;
+}

@@ -1,0 +1,107 @@
+.job_list ul li{
+    width: 86px;
+    height: 240px;
+    /* border: 1px solid red; */
+    
+    list-style: none;
+    
+}
+.job_list ul li a{
+    font-size: 30px;
+    color: white;
+    width: 40px;
+    height: 240px;
+    margin: 0 auto;
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    top: 94px;
+    z-index: 100;
+    left: 30px;
+}
+.job_list ul li a:hover{
+    text-shadow: 1px 1px white;
+    /* font-size: 32    px; */
+    
+}
+.list1{
+    float: left;
+    position: absolute;
+    bottom: 70px;
+    left: 120px;
+    background: url("../images/list_images/sixing_413d9435.webp") no-repeat;
+    /* background-position: center;
+    background-size: 100% 100%; */
+    
+}
+.list2{
+    float: left;
+    position: absolute;
+    bottom: 60px;
+    left: 180px;
+    background: url("../images/list_images/yiren_babc6901.webp") no-repeat;
+}
+.list3{
+    float: left;
+    position: absolute;
+    bottom: 50px;
+    left: 240px;
+    background: url("../images/list_images/fangshi_552d4918.webp") no-repeat;
+}
+.list4{
+    float: left;
+    position: absolute;
+    bottom: 30px;
+    left: 300px;
+    background: url("../images/list_images/xiake_026da876.webp") no-repeat;
+}
+.list5{
+    float: left;
+    position: absolute;
+    bottom: 20px;
+    left: 360px;
+    background: url("../images/list_images/yishi_b6cfd19e.webp") no-repeat;
+}
+.list6{
+    float: left;
+    position: absolute;
+    bottom: 10px;
+    left: 420px;
+    background: url("../images/list_images/jiashi_9c7777f4.webp") no-repeat;
+}
+.list7{
+    float: left;
+    position: absolute;
+    bottom: 20px;
+    left: 480px;
+    background: url("../images/list_images/yanshi_9b439d5d.webp") no-repeat;
+}
+.list8{
+    float: left;
+    position: absolute;
+    bottom: 30px;
+    left: 540px;
+    background: url("../images/list_images/huahun_a73cb94b.webp") no-repeat;
+}
+.list9{
+    float: left;
+    position: absolute;
+    bottom: 50px;
+    left: 600px;
+    background: url("../images/list_images/sheshou_54bd2fb9.webp") no-repeat;
+}
+.list10{
+    float: left;
+    position: absolute;
+    bottom: 60px;
+    left: 660px;
+    background: url("../images/list_images/daoke_bb82d69f.webp") no-repeat;
+}
+.list11{
+    float: left;
+    position: absolute;
+    bottom: 70px;
+    left: 720px;
+    background: url("../images/list_images/meizhe_d7fbf563.webp") no-repeat;
+    
+}

@@ -1,0 +1,330 @@
+
+.bg{
+    width: 1920px;
+    height: 3560px;
+    min-width: 1400px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    background: url(https://qn.res.netease.com/pc/zt/20200903143813/img/newbg1-top_c75e3d4c.webp) no-repeat center top, 
+    url(https://qn.res.netease.com/pc/zt/20200903143813/img/newbg1-bottom_f056348f.png) no-repeat center bottom,
+     url(https://qn.res.netease.com/pc/zt/20200903143813/img/newbg1-center_cc20b90e.png) repeat-y center top;
+}
+.wrap{
+    height: 2764px;
+    width: 1920px;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+    position: absolute;
+    top: 600px;
+    float: left;
+}
+.wrap_box{
+    height: 2760px;
+    width: 1920px;
+    margin: 0 auto;
+    
+
+}
+.wrap_content{
+    height: 2760px;
+    width: 1920px;
+    /* border: 1px solid yellow; */
+}
+
+.wrap_main{
+    width: 870px;
+    height: 2760px;
+    /* border:  1px solid black; */
+    margin: 0 auto;
+}
+.down_list{
+    width: 827px;
+    height: 90px;
+    background: url(https://qn.res.netease.com/pc/zt/20200903143813/img/nav-line_1c952d82.webp) no-repeat left bottom;
+    /* border: 1px solid pink; */
+    float: left;
+    margin: 0 auto;
+    position: relative;
+}
+.down_list li{
+    width: 275px;
+    height: 90px;
+    list-style: none;
+    float: left;
+    font-size: 23px;
+    text-align: center;
+}
+.down_list li a{
+    text-decoration: none;
+    padding: 0 25px;
+    display: inline-block;
+    height: 72px;
+    font-size: 20px;
+    font-family: fzlth serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: #272738;
+    letter-spacing: 2px;
+    line-height: 90px   ;
+}
+.down_list li a:hover{
+    background: url(https://qn.res.netease.com/pc/zt/20200903143813/img/nav-hover-left_303c1dab.webp) left no-repeat,
+    url(https://qn.res.netease.com/pc/zt/20200903143813/img/nav-hover-right_a8b5777d.png) right no-repeat,
+    url(https://qn.res.netease.com/pc/zt/20200903143813/img/nav-hover-center_308f37d3.png) left repeat-x;;
+}
+.down_text h2{
+    display: inline-block;
+    padding-right: 20px;
+    font-family: å¾®è½¯é›…é»‘ serif;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    padding-left: 60px;
+    height: 29px;
+    color: #645DA9;
+    font-size: 20px;
+    background: url(https://qn.res.netease.com/pc/zt/20200903143813/img/h1-bg-left_678b594b.webp) left no-repeat,
+     url(https://qn.res.netease.com/pc/zt/20200903143813/img/h1-bg-right_9322cbb2.png) right no-repeat,
+      url(https://qn.res.netease.com/pc/zt/20200903143813/img/h1-bg-center_b9d76ee1.png) left repeat-x;;
+}
+.btn_client{
+    width: 916px;
+    height: 112px;
+    padding: 20px 0;
+    margin: 0 auto
+}
+.btn_client a{
+    background: url(https://qn.res.netease.com/pc/zt/20200903143813/img/clientBtn1_d82a076f.webp) no-repeat;
+    position: relative;
+    width: 408px;
+    margin: 0 25px;
+    height: 112px;
+    font-family: "Microsoft YaHei", sans-serif;
+    text-align: center;
+    display: block;
+    font-size: 40px;
+    color: #fff;
+    line-height: 100px;
+    float: left;
+    text-decoration: none;
+    overflow: hidden;
+}
+.btn_client a span{
+    display: block;
+    position: absolute;
+    left: 50%;
+    width: 300px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fff;
+    margin-left: -150px;
+    top: 74px;
+    z-index: 5;
+}
+.down_text p{
+    width: 875px;
+    padding: 2px 0 40px;
+    color: #606060;
+    font-size: 14px;
+    margin: auto 50px;
+    line-height: 24px;
+    font-family: å¾®è½¯é›…é»‘ serif;
+    line-height: 24px;
+    padding: 2px 0;
+    font-size: 14px;
+    color: #1d1919;
+}
+.p_title{
+    font-weight: bold;
+    color: #756598;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+.btns_xl{
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    padding-left: 25px;
+}
+.btns_xl a{
+    cursor: pointer;
+    display: block;
+    float: left;
+    width: 190px;
+    height: 40px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei", sans-serif;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    background: url(https://qn.res.netease.com/pc/zt/20200903143813/img/sprite-2d1b9f_2d1b9f8a.webp);
+    background-size: 658px 472px;
+    background-position: -194px -344px;
+}
+.btns_xl a:hover{
+    background: url(https://qn.res.netease.com/pc/zt/20200903143813/img/sprite-2d1b9f_2d1b9f8a.webp);
+    background-size: 658px 472px;
+    background-position: 0px -344px;
+}
+.cjwt{
+    display: inline-block;
+    margin-left: 40px;
+    width: 245px;
+    text-decoration: none;
+    position: relative;
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 16px;
+    color: #372b8e;
+    margin-top: 20px;
+    line-height: 10px;
+    background: url(https://qn.res.netease.com/pc/zt/20200903143813/img/jia_e52bb878.webp) no-repeat;
+}
+.table1{
+    font-family: "Microsoft YaHei", sans-serif;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    border-collapse: collapse;
+    margin: 10px auto;
+    margin: 0 auto;
+    line-height: 24px;
+    background: #fff;
+    /* border: 1px solid #372b8e; */
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.table1 th{
+    text-align: center;
+    color: #1d1919;
+    /* border: 1px #9a9ad8 solid; */
+    padding: 3px;
+    background: #9a9ad8;
+    color: white;
+}
+.table1 td{
+    text-align: center;
+    color: #1d1919;
+    /* border: 1px #9a9ad8 solid; */
+    padding: 3px;
+}
+.down_list1{
+    font-family: "Microsoft YaHei", sans-serif;
+    width: 530px;
+    height: 150px;
+    padding-left: 50px;
+    margin: 5px auto;
+}
+.down_list1 li{
+    margin: 0 auto;
+    list-style: none;
+    float: left;
+    width: 100px;
+    padding: 10px 38px;
+    line-height: 18px;
+    font-size: 12px;
+}
+.down_box1{
+    color: #606060;
+    width: 575px;
+    height: 83px;
+    position: relative;
+    margin: 52px auto 0;
+    margin-left: 150px;
+}
+.gf_btn{
+    width: 171px;
+    height: 42px;
+    text-indent: -999em;
+    margin-top: 2px;
+    margin-left: 150px;
+    float: left;
+    margin-right: 20px;
+    background: url(https://qn.res.netease.com/pc/zt/20200903143813/img/sprite-2d1b9f_2d1b9f8a.webp) no-repeat;
+    background-size: 658px 472px;
+    background-position: -218px -234px;
+}
+.xunlei_btn{
+    width: 171px;
+    height: 40px;
+    margin-top: 2px;
+    text-indent: -999em;
+    float: left;
+    margin-right: 20px;
+    background: url(https://qn.res.netease.com/pc/zt/20200903143813/img/sprite-2d1b9f_2d1b9f8a.webp) no-repeat;
+    background-size: 658px 472px;
+    background-position: -175px -388px;
+}
+.full_pop{
+    width: 214px;
+    height: 51px;
+    display: block;
+    font-size: 0;
+    margin: 20px auto;
+    background: url(https://qn.res.netease.com/pc/zt/20200903143813/img/sprite-2d1b9f_2d1b9f8a.webp) no-repeat;
+    background-size: 658px 472px;
+    background-position: -0px -234px;
+}
+.full_info {
+    width: 540px;
+    margin: 0 auto;
+}
+.full_info td strong{
+    color: #7f72cc;
+    font-size: 14px;
+    font-family: å¾®è½¯é›…é»‘ serif;
+    font-weight: bold;
+
+}
+.full_info td{
+    font-size: 12px;
+    margin: 10px auto;
+}
+.down_list2{
+    font-family: "Microsoft YaHei", sans-serif;
+    width: 700px;
+    height: 350px;
+    margin: 10px auto;
+    padding-left: 25px;
+    color: #606060;
+    /* border: 1px solid red; */
+    
+}
+.down_list2 li{
+    margin: 20px auto;
+}
+/* .list2_li{
+    width: 600px;
+    height: 30px;
+    float: left;
+    background: #afa5c5;
+    /* border: 1px solid red; */
+    list-style: none
+    
+} */
+.li_title{
+    font-weight: bold;
+    color: #756598;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.li_title a{
+    margin-right: 200px;
+    width: 81px;
+    height: 23px;
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 6px;
+    line-height: 23px;
+    cursor: pointer;
+    background: url(https://qn.res.netease.com/pc/zt/20200903143813/img/sclose_93d2f748.webp) no-repeat;
+}

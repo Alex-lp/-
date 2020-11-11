@@ -1,0 +1,632 @@
+.swiper_wrapper{
+    width: 1920px;
+    height: 1300px;
+    margin: 0 auto 60px;
+    /* border: 1px solid orange; */
+    /* background: rgb(56, 56, 56); */
+    position: relative;
+    top: -150px;
+}
+.job_container{
+    width: 940px;
+    height: 1300px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position:relative;
+}
+
+.img_list{
+    width: 13160px;
+    height: 1300px;
+    margin: 0 auto;
+    /* border: 1px solid orange; */
+    position:relative;
+    z-index: 1
+}
+.pre{
+    width: 76px;
+    height: 77px;
+    position: absolute;
+    top: 700px;
+    z-index: 3;
+    background: url("../images/sprite-091bcb_091bcb73.webp");
+    background-size: 714px 404px;
+    background-position: -562px -136px;
+    /* border: 1px solid red; */
+    transform: rotateY(180deg);
+}
+.pre:hover{
+    background-position: -562px -59px;
+}
+.next{
+    width: 76px;
+    height: 77px;
+    position: absolute;
+    top: 700px;
+    right: 0;
+    z-index: 3;
+    background: url("../images/sprite-091bcb_091bcb73.webp");
+    background-size: 714px 404px;
+    background-position: -562px -136px;
+    /* border: 1px solid red; */
+    
+}
+.next:hover{
+    background-position: -562px -59px;
+}
+.sixing{
+    width: 940px;
+    height: 1300px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    background: url("../images/juese/sixing-male_3c9b84ae.webp") no-repeat;
+    background-size: 100% 100% ;
+    float: left;
+    background-position: center;
+}
+.btn_gender{
+    position: absolute;
+    top: 930px;
+    left: 430px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+    background-color: white;
+}
+.btn_gender :first-child{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:#352e55 ;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+#btn_gender_female{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:white ;
+    color: #352e55;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+.yiren{
+    width: 940px;
+    height: 1300px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    background: url("../images/juese/yiren-male_876b2c4f.webp") no-repeat;
+    background-size: 740px  1330px;
+    float: left;
+    background-position: center;
+}
+.btn_gender1{
+    position: absolute;
+    top: 930px;
+    left: 1370px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+    background-color: white;
+}
+.btn_gender1 :first-child{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:#352e55 ;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+#btn_gender_female1{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:white ;
+    color: #352e55;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+.fangshi1{
+    width: 940px;
+    height: 1300px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    background: url("../images/juese/daofa-male_f5d0fecc.webp") no-repeat;
+    background-size: 740px  1330px;
+    background-position: center;
+
+    float: left;
+}
+.btn_gender2{
+    position: absolute;
+    top: 930px;
+    left: 2310px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+    background-color: white;
+}
+.btn_gender2 :first-child{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:#352e55 ;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+#btn_gender_female2{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:white ;
+    color: #352e55;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+.fangshi2{
+    width: 940px;
+    height: 1300px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    background: url("../images/juese/tianlang-male_a01a3635.webp") no-repeat;
+    background-size: 940px  1330px;
+    float: left;  
+      background-position: center;
+
+}
+
+
+.xiake{
+    width: 940px;
+    height: 1300px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    background: url("../images/juese/xiake-male_09d4ae49.webp") no-repeat;
+    background-size: 740px  1330px;
+    float: left;
+    background-position: center;
+
+}
+.btn_gender4{
+    position: absolute;
+    top: 930px;
+    left: 3250px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+    background-color: white;
+}
+.btn_gender4 :first-child{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:#352e55 ;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+#btn_gender_female4{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:white ;
+    color: #352e55;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+.yishi{
+    width: 940px;
+    height: 1300px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    background: url("../images/juese/yishi-male_c548d0d1.webp") no-repeat; 
+    background-size: 740px  1330px;
+    float: left;
+    background-position: center;
+
+}
+.btn_gender5{
+    position: absolute;
+    top: 930px;
+    left: 4190px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+    background-color: white;
+}
+.btn_gender5 :first-child{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:#352e55 ;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+#btn_gender_female5{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:white ;
+    color: #352e55;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+.jiashi1{
+    width: 940px;
+    height: 1300px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    background: url("../images/juese/zhanhun-male_ac75bd36.webp") no-repeat;
+    background-size: 740px  1330px;
+    float: left;
+    background-position: center;
+
+}
+.btn_gender6{
+    position: absolute;
+    top: 930px;
+    left: 5130px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+    background-color: white;
+}
+.btn_gender6 :first-child{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:#352e55 ;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+#btn_gender_female6{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:white ;
+    color: #352e55;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+.jiashi2{
+    width: 940px;
+    height: 1300px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    background: url("../images/juese/jingang-male_b376e7c7.webp") no-repeat;
+    background-size: 740px  1330px;
+    float: left;
+    background-position: center;
+
+}
+
+.yanshi{
+    width: 940px;
+    height: 1300px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    background: url("../images/juese/yanshi-male_e9a06c1b.webp") no-repeat;
+    background-size: 740px  1330px;
+    float: left;
+    background-position: center;
+
+}
+.btn_gender8 :first-child{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:#352e55 ;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+#btn_gender_female8{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:white ;
+    color: #352e55;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+.btn_gender8{
+    position: absolute;
+    top: 930px;
+    left: 6070px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+    background-color: white;
+}
+.huahun{
+    width: 940px;
+    height: 1300px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    background: url("../images/juese/huahun-male_9541cc05.webp") no-repeat;
+    background-size: 740px  1330px;
+    float: left;
+    background-position: center;
+
+}
+.btn_gender9{
+    position: absolute;
+    top: 930px;
+    left: 7010px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+    background-color: white;
+}
+.btn_gender9 :first-child{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:#352e55 ;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+#btn_gender_female9{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:white ;
+    color: #352e55;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+.sheshou{
+    width: 940px;
+    height: 1300px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    background: url("../images/juese/sheshou-male_604b4e00.webp") no-repeat;
+    background-size: 740px  1330px;
+    float: left;
+    background-position: center;
+
+}
+.btn_gender10{
+    position: absolute;
+    top: 930px;
+    left: 7950px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+    background-color: white;
+}
+.btn_gender10 :first-child{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:#352e55 ;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+#btn_gender_female10{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:white ;
+    color: #352e55;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+.daoke1{
+    width: 940px;
+    height: 1300px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    background: url("../images/juese/duanhen-male_ef1e7842.webp") no-repeat;
+    background-size: 740px  1330px;
+    float: left;
+    background-position: center;
+
+}
+.btn_gender11{
+    position: absolute;
+    top: 930px;
+    left: 8890px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+    background-color: white;
+}
+.btn_gender11 :first-child{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:#352e55 ;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+#btn_gender_female11{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:white ;
+    color: #352e55;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+.daoke2{
+    width: 940px;
+    height: 1300px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    background: url("../images/juese/cangren-male_06c8736a.webp") no-repeat;
+    background-size: 740px  1330px;
+    float: left;
+    background-position: center;
+
+}
+.btn_gender12{
+    position: absolute;
+    top: 930px;
+    left:9830px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+    background-color: white;
+}
+.btn_gender12 :first-child{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:#352e55 ;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+#btn_gender_female12{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:white ;
+    color: #352e55;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+.meizhe{
+    width: 940px;
+    height: 1300px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    background: url("../images/juese/meizhe-male_6f13c19b.webp") no-repeat;
+    background-size: 740px  1330px;
+    float: left;
+    background-position: center;
+
+}
+.btn_gender13{
+    position: absolute;
+    top: 930px;
+    left:9830px;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+    background-color: white;
+}
+.btn_gender13 :first-child{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:#352e55 ;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+#btn_gender_female13{
+    width: 50%;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+    font-size: 26px;
+    background-color:white ;
+    color: #352e55;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}

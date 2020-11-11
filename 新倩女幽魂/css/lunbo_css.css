@@ -1,0 +1,124 @@
+.sec3{
+    position: relative;
+    width: 1920px;
+    height: 880px;
+    border: 1px solid blue;
+}
+.sec3_title{
+    position: relative;
+    width: 558px;
+    height: 195px;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* border: 1px solid red; */
+    margin: 30px auto 0;
+    background: url("../images/sec3-title_3233cfb7.webp") no-repeat;
+}
+.sec3_main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    width: 1400px;
+    height: 600px;
+    margin: 300px auto 0;
+    border: 1px solid red;
+    /* transform: rotateX(30deg) rotateY(80deg); */
+    transform-style: preserve-3d;
+    perspective-origin: 50% 50%;  /*x, y所组成的视点位置*/
+    perspective: relative;
+
+}
+.sec3_prev_btn{
+    z-index: 99;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 241px;
+    height: 106px;
+    background: url("../images/lunbo_images/sec3-arrow-right_e8104902.webp");
+    transform: rotateY(180deg);
+    background-position: right ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.sec3_prev_btn:hover{
+    width: 220px;
+    height: 100px;
+    background-size: 100% 100%;
+}
+.sec3_next_btn{
+    z-index: 99;
+    position: absolute;
+    top: 45%;
+    left: 78%;
+    width: 241px;
+    height: 106px;
+    background: url("../images/lunbo_images/sec3-arrow-right_e8104902.webp");
+    background-position: right ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.sec3_next_btn:hover{
+    width: 220px;
+    height: 100px;
+    background-size: 100% 100%;
+}
+
+.pic_1_item_wrap{
+    width: 1000px;
+    height: 530px;
+    margin: 0 auto;
+    position: relative;
+    background: url("../images/lunbo_images/sec3-item-bg_5ee79372.webp") no-repeat;
+    background-size: 100% 100%;
+
+}
+.pic_1_item_wrap img{
+    width: 970px;
+    height: 500px;
+    position: absolute;
+    margin: 15px 10px 10px 15px;
+
+}
+.pic_1_item_desc{
+    width: 1052px;
+    height: 213px;
+    position: absolute;
+    top: 382px;
+    left: 324px;
+    background: url("../images/lunbo_images/sec3-item-dec_9916daa6.webp");
+}
+.pic_1{
+    width: 1000px;
+    height: 530px;
+    margin: 30px auto 0;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    left: 200px;
+    transform: translateZ(-50px);
+    z-index: 5;
+}
+.pic_2{
+    width: 1000px;
+    height: 530px;
+    margin: 30px auto 0;
+    border: 1px solid yellow;
+    position: absolute;
+    left: 200px;
+    transform: translateZ(-100px) translateX(200px);
+}
+.pic_3{
+    width: 1000px;
+    height: 530px;
+    margin: 30px auto 0;
+    left: 200px;
+
+    border: 1px solid yellow;
+    position: absolute;
+    transform: translateZ(-100px) translateX(-200px);
+}

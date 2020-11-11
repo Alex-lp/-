@@ -1,0 +1,155 @@
+.sec3{
+    position: relative;
+    width: 1920px;
+    height: 880px;
+    /* border: 1px solid blue; */
+}
+.sec3_title{
+    position: relative;
+    width: 558px;
+    height: 195px;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* border: 1px solid red; */
+    margin: 30px auto 0;
+    background: url("../images/sec3-title_3233cfb7.webp") no-repeat;
+}
+.sec3_main{
+    width: 1000px;
+    height: 600px;
+    margin: 0px auto 0;
+    /* border: 1px solid black; */
+    position: relative;
+    
+    overflow: hidden;
+
+}
+.sec3_container{
+    position: absolute;
+    top:200px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    width: 1400px;
+    height: 600px;
+    margin: 10px auto 0;
+    /* border: 1px solid red; */
+}
+.sec3_prev_btn{
+    z-index: 99;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 241px;
+    height: 106px;
+    background: url("../images/lunbo_images/sec3-arrow-right_e8104902.webp");
+    transform: rotateY(180deg);
+    background-position: right ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.sec3_prev_btn:hover{
+    width: 220px;
+    height: 100px;
+    background-size: 100% 100%;
+}
+.sec3_next_btn{
+    z-index: 99;
+    position: absolute;
+    top: 45%;
+    left: 78%;
+    width: 241px;
+    height: 106px;
+    background: url("../images/lunbo_images/sec3-arrow-right_e8104902.webp");
+    background-position: right ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.sec3_next_btn:hover{
+    width: 220px;
+    height: 100px;
+    background-size: 100% 100%;
+}
+.lunbo_container{
+    width: 6050px;
+    height: 558px;
+    margin: 10px 5px 0  0;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    
+}
+.pic_1{
+    width: 1000px;
+    height: 530px;
+    margin: 5px auto 0;
+    border: 1px solid rgb(75, 75, 99);
+    position: relative;
+    float: left;
+}
+.pic_1_item_wrap{
+    width: 1000px;
+    height: 530px;
+    margin: 0 auto;
+    position: relative;
+    background: url("../images/lunbo_images/sec3-item-bg_5ee79372.webp") no-repeat;
+    background-size: 99% 100%;
+
+}
+.pic_1_item_wrap img{
+    width: 970px;
+    height: 500px;
+    position: absolute;
+    margin: 15px 10px  15px;
+
+}
+.pic_1_item_desc{
+    width: 1052px;
+    height: 213px;
+    position: absolute;
+    top: 382px;
+    left: 290px;
+    background: url("../images/lunbo_images/sec3-item-dec_9916daa6.webp");
+}
+.pic_2_item_desc{
+    width: 1052px;
+    height: 213px;
+    position: absolute;
+    top: 382px;
+    left: 290px;
+    background: url("../images/lunbo_images/sec3-item-dec2_5c5367f5.webp");
+}
+.pic_3_item_desc{
+    width: 1052px;
+    height: 213px;
+    position: absolute;
+    top: 382px;
+    left: 383px;
+    background: url("../images/lunbo_images/sec3-item-dec3_5e4826bf.webp");
+}
+.pic_4_item_desc{
+    width: 1052px;
+    height: 213px;
+    position: absolute;
+    top: 382px;
+    left: 177px;
+    background: url("../images/lunbo_images/sec3-item-dec4_7a15023b.webp");
+}
+.pic_5_item_desc{
+    width: 1052px;
+    height: 213px;
+    position: absolute;
+    top: 382px;
+    left: 359px;
+    background: url("../images/lunbo_images/sec3-item-dec5_2155f7df.webp");
+}
+.pic_6_item_desc{
+    width: 1052px;
+    height: 213px;
+    position: absolute;
+    top: 382px;
+    left: 280px;
+    background: url("../images/lunbo_images/sec3-item-dec6_5776d8c5.webp");
+}

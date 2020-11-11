@@ -1,0 +1,215 @@
+.sec1{
+    /* background: black; */
+    width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    opacity: 100%;
+    float: left;
+}
+.video1{
+    width: 1920px;
+    height: 1080px;
+    margin: 0 auto 0;
+    float: left;
+}
+.sec1_main video{
+    position: relative;
+    left: 0;
+    top: 0; 
+    margin: 0 auto 0;
+    width: 100%;
+    height: 100%; 
+    z-index: -100; 
+    -webkit-filter: grayscale(20%);
+}
+.slogan{
+    margin: 0 auto;
+    width: 555px;
+    height: 509px;
+    /* border: 1px solid yellow; */
+    position: relative;
+    top: -970px;
+    left: 0px;
+}
+source{  
+    min-width: 1920px;  
+    min-height: 1434px;  
+     
+} 
+
+.video_play{
+    z-index: 3;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 120px;
+    top: 340px;
+    background-image: url("../images/sprite-091bcb_091bcb73.webp");
+    background-size: 714px 404px;
+    background-position: -642px -136px;
+    animation: video_play_run 3s normal infinite;
+}
+@keyframes video_play_run{
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+.yuyue{
+    z-index: 5;
+    cursor: pointer;
+    width: 49px;
+    height: 181px;
+    position: absolute;
+    left: 220px;
+    top: 376px;
+    /* border: 1px solid yellow; */
+    background: url("../images/sprite-091bcb_091bcb73.webp");
+    background-position: -456px -55px;
+    background-size: 714px 404px;
+    
+}
+.yuyue:hover{
+    background: url("../images/sprite-091bcb_091bcb73.webp");
+    background-position: -508px -55px;
+    background-size: 714px 404px;
+}
+.menu{
+    width: 1086px;
+    height: 349px;
+    background: url("../images/menu-bg_4dddc29e.webp");
+    position: relative;
+    z-index: 3;
+    top: -1890px;
+    margin: 10px auto 0;
+}
+.item_1{
+    width: 360px;
+    height: 339px;
+    float: left;
+    /* border: 1px solid yellow; */
+}
+.item_1_box{
+    width: 360px;
+    height: 280px;
+    margin-top: 55px;
+    /* border: 1px solid orange; */
+}
+.item_1_box input{
+    width: 295px;
+    height: 45px;
+    margin: 30px 0 0 40px;
+    text-align: left;
+    font-size: 20px;
+}
+.item_1_box input:nth-of-type(2){
+    width: 295px;
+    height: 45px;
+    margin: 15px 0 0 40px;
+    text-align: left;
+    font-size: 20px;
+}
+.item_1_box_protocal{
+    width: 320px;
+    height: 50px;
+    margin: 10px 0 0 40px;
+    /* border: 1px solid red; */
+}
+.item_1_box_protocal input{
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 0;
+}
+.item_1_box_protocal span{
+    font-size: 13px;
+    color: grey;
+}
+.item_1_box_protocal span a{
+    color: grey;
+}
+.item_1_box_protocal span a:hover{
+    color: rgb(20, 20, 20);
+}
+.item_1_box input:last-child{
+    width: 238px;
+    height: 45px;
+    margin: 15px 0 0 60px;
+    color: white;
+    text-align: center;
+    background: url("../images/btn-reg_a61000be.jpg");
+}
+.item_1_box input:last-child:hover{
+    background: url("../images/按钮.png");
+    background-size: 100% 100%;
+}
+.item_2{
+    width: 330px;
+    height: 290px;
+    margin: 55px 0 0 20px;
+    /* border: 1px solid red; */
+    float: left;
+
+}
+.icon{
+    width: 121px;
+    height: 121px;
+    margin: 50px auto 0;
+    background: url("../images/sprite-091bcb_091bcb73.webp");
+    background-position: -0px -228px;
+    background-size: 714px 404px;
+}
+.item_2_btn{
+    width: 258px;
+    height: 50px;
+    margin: 35px auto 0;
+    font-size: 0;
+    background-image: url("../images/sprite-091bcb_091bcb73.webp");
+    background-position: -125px -228px;
+    background-size: 714px 404px;
+    
+}
+.item_2_btn:hover{
+ 
+    background-position:-125px -282px ;
+
+}
+.item_3{
+    width: 330px;
+    height: 290px;
+    margin: 55px 0 0 20px;
+    /* border: 1px solid red; */
+    float: left;
+}
+.item_3_pc{
+    width: 287px;
+    height: 203px;
+    margin: 5px auto 0;
+    background-image: url("../images/item3-lb_3c8a2d77.webp");
+    background-repeat: no-repeat;
+}
+.item_3_btn{
+    width: 258px;
+    height: 50px;
+    margin: 0 auto 0;
+    font-size: 0;
+    background-image: url("../images/sprite-091bcb_091bcb73.webp");
+    background-position: -0px -353px;
+
+    background-size: 714px 404px;
+}
+.item_3_btn:hover{
+    background-position: -456px 0px;
+
+}
